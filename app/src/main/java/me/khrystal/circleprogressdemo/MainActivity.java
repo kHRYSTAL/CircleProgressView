@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity implements CircleProgressVie
         setContentView(R.layout.activity_main);
         mCircleRingView = (CircleProgressView) findViewById(R.id.circle_view);
         mCircleRingView.setGradinetColor(Color.parseColor("#FF26FF00"), Color.parseColor("#FF126912"));
-        mCircleRingView.setCenterTextSize(120);
+        mCircleRingView.setCenterTextSize(40);
         mCircleRingView.setCenterText(""+0);
         mCircleRingView.setUnitText("kg");
-        mCircleRingView.setUnitTextSize(40);
+        mCircleRingView.setUnitTextSize(20);
         mCircleRingView.setOnProgressListener(this);
     }
 

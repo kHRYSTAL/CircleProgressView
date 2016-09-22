@@ -428,7 +428,7 @@ public class CircleProgressView extends View {
 
     public int sp2px(float sp) {
         float density = getResources().getDisplayMetrics().scaledDensity;
-        return (int) (sp * + 0.5f);
+        return (int) (sp * density + 0.5f);
 
     }
 
